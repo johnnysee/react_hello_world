@@ -1,12 +1,22 @@
 import React, { Component } from 'react'
 
 class App extends Component {
-  render() {
-    return (
+  // constructor(props) {
+  //   super(props)
+  //   this.state = {
+  //     planet: 'uranus'
+  //   }
+  // }
+  state = {
+    planet: "venus",
+  };
+    render() {
+      const { planet } = this.state;
+      return (
       <div>
-        <h1>Hello world from a class component</h1>
+        <h1>Hello {planet} from a class component</h1>
       </div>
-    )
+    );
   }
 }
 
