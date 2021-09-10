@@ -14,11 +14,6 @@ const App = () => {
 
 export default App
 
-
-// import React, { Component } from 'react'
-// import GreetingInput from './GreetingInput'
-// import GreetingOutput from './GreetingOutput'
-
 // class App extends Component {
 
 //   state = {
